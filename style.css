@@ -1,7 +1,44 @@
-body{
-  color:#A9A9A9;
-  background:url(zzzz.jpg);
-  background-size:cover;
-}
-table{color:#A9A9A9;
-}
+ body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+        .tt{ color:#A9A9A9;
+        }
+
+        p{ color:#A9A9A9;
+        }
+
+        h1, h2, h3 {
+            text-align: center;
+            color: #00FFFF;
+        }
+        table {
+            width: 100%;
+            margin: 20px 0;
+            border-collapse: collapse;
+        }
+        td {
+            vertical-align: top;
+            padding: 10px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        ol {
+            margin: 20px auto;
+            padding-left: 20px;
+            max-width: 800px;
+        }
+        details {
+            background-color: #A9A9A9;
+            border: 1px solid #A9A9A9;
+            border-radius: 5px;
+            padding: 10px;
+            margin: 20px 0;
+        }
