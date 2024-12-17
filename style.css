@@ -1,9 +1,13 @@
  body {
             font-family: Arial, sans-serif;
-            background: linear-gradient(to right, #2c3e50, #bdc3c7); /* Градиентный фон */
+            background: linear-gradient(to right, #2c3e50, #bdc3c7); /* Градиентный фон 288 */
             margin: 0;
             padding: 0;
             color: #34495e;
+        }
+        .car-image {
+            width: 300px; /* Замените 300px на ширину Benz.jpg */
+            height: auto; /* Сохраняет пропорции */
         }
         header {
             background: rgba(0, 0, 0, 0.7);
