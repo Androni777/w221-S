@@ -5,8 +5,12 @@
             padding: 0;
             color: #34495e;
         }
-        .car-image {
-            scale(0.1);
+         .car-image {
+            max-width: 300px; /* Указываем общий размер для всех изображений */
+            height: auto; /* Сохранение пропорций */
+            border-radius: 10px;
+            margin-bottom: 20px; /* Отступ снизу для удобства */
+        }
         }
         header {
             background: rgba(0, 0, 0, 0.7);
