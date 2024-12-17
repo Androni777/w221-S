@@ -6,9 +6,7 @@
             color: #34495e;
         }
         .car-image {
-            width: 150px; /* Замените 300px на ширину Benz.jpg */
-            height: auto; /* Сохраняет пропорции */
-            scale(0.5);
+            scale(0.1);
         }
         header {
             background: rgba(0, 0, 0, 0.7);
