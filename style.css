@@ -1,44 +1,45 @@
  body {
             font-family: Arial, sans-serif;
-            background-color: url(zzzz.jpg);
+            background: linear-gradient(to right, #2c3e50, #bdc3c7); /* Градиентный фон */
             margin: 0;
-            padding: 20px;
-            color: #333;
+            padding: 0;
+            color: #34495e;
         }
-        .tt{ color:#A9A9A9;
-        }
-
-        p{ color:#A9A9A9;
-        }
-
-        h1, h2, h3 {
+        header {
+            background: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            padding: 10px 0;
             text-align: center;
-            color: #40E0D0;
         }
-        table {
-            width: 100%;
+        nav {
             margin: 20px 0;
-            border-collapse: collapse;
         }
-        td {
-            vertical-align: top;
-            padding: 10px;
+        nav a {
+            margin: 0 15px;
+            color: #fff;
+            text-decoration: none;
         }
-        img {
+        .content {
+            padding: 20px;
+        }
+        .car-image {
             max-width: 100%;
             height: auto;
-            border-radius: 8px;
+            border-radius: 10px;
+        }
+        section {
+            margin-bottom: 40px;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
         }
-        ol {
-            margin: 20px auto;
-            padding-left: 20px;
-            max-width: 800px;
-        }
-        details {
-            background-color: #A9A9A9;
-            border: 1px solid black;
-            border-radius: 5px;
-            padding: 10px;
-            margin: 20px 0;
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
         }
