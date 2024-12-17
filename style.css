@@ -5,8 +5,8 @@
             padding: 0;
             color: #34495e;
         }
-        .car-image {
-            width: 300px; /* Замените 300px на ширину Benz.jpg */
+        car-image {
+            width: 150px; /* Замените 300px на ширину Benz.jpg */
             height: auto; /* Сохраняет пропорции */
         }
         header {
