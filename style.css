@@ -12,7 +12,6 @@
             margin-bottom: 20px; /* Отступ снизу для удобства */
          }
          .car-image1 {
-           height: auto; /* Сохранение пропорций */
            border-radius: 10px;
            margin-bottom: 20px; /* Отступ снизу для удобства */
          }
@@ -40,7 +39,6 @@
         }
         .car-image1 {
             max-width: 100%;
-            height: auto;
             border-radius: 10px;
         }
 
